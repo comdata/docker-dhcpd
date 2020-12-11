@@ -1,5 +1,5 @@
 FROM alpine:latest
-LABEL maintainer="Winston Astrachan"
+LABEL maintainer="Original: Winston Astrachan"
 LABEL description="ISC DHCP Server on Alpine Linux"
 
 RUN apk --no-cache add dhcp
