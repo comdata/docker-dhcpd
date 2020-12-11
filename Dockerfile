@@ -14,4 +14,4 @@ CMD ["/usr/sbin/dhcpd", "-4", \
                         "-cf", "/config/dhcpd.conf", \
                         "-lf", "/config/dhcpd.leases", \
                         "-user", "dhcp", \
-                        "-group", "dhcp", "eth0"]
+                        "-group", "dhcp"]

@@ -28,4 +28,4 @@ touch /config/dhcpd.leases
 # Set permissions
 chown -R $PUID:$PGID /config
 
-exec "$@"
+exec "$@" $DHCPD_INTERFACE
